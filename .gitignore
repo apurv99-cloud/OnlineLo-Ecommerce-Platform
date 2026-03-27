@@ -1,0 +1,79 @@
+# ===============================
+# 🔥 Spring Boot / Java
+# ===============================
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ===============================
+# 🔥 IDE Files
+# ===============================
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# ===============================
+# 🔥 OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# 🔥 Logs
+# ===============================
+*.log
+
+# ===============================
+# 🔥 Environment & Secrets (IMPORTANT 🔥)
+# ===============================
+.env
+.env.*
+*.env
+
+🔥 Spring config with secrets (FIXED 🔥)
+**/application.properties
+**/application.yml
+**/application-*.properties
+**/application-*.yml
+
+# ===============================
+# 🔥 Node (React frontend)
+# ===============================
+**/node_modules/
+**/dist/
+**/build/
+
+# ===============================
+# 🔥 Misc
+# ===============================
+*.class
+*.jar
+*.war
+*.ear
