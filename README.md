@@ -1,4 +1,12 @@
+
+
 #  E-Commerce Platform (Spring Boot + React + JWT + OAuth2)
+
+## Problem Statement
+
+Modern e-commerce platforms require secure, scalable authentication systems 
+that support both traditional login and third-party OAuth providers. 
+This project demonstrates how to build such a system using Spring Boot and React.
 
 A full-stack **E-Commerce Web Application** built using **Spring Boot** for backend and **React.js** for frontend.
 This project implements **secure authentication and authorization** using **Spring Security**, **JWT (JSON Web Tokens)**, and **OAuth2 (Google & GitHub Login)**.
